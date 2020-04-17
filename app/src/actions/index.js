@@ -11,7 +11,7 @@ export const fetchFacts = () => dispatch => {
   
   axios
     .get(
-      'https://cors-anywhere.herokuapp.com/https://cat-fact.herokuapp.com/facts'
+      'https://cors-anywhere.herokuapp.com/cat-fact.herokuapp.com/facts'
     )
     .then(res => {
       console.log("data:",res.data);
